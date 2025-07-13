@@ -1,0 +1,10 @@
+# Node y Gatsby
+node_modules/
+.cache/
+public/
+.env*
+.DS_Store
+
+# Editorconfig / IDE
+.vscode/
+*.log

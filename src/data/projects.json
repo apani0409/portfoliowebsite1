@@ -1,0 +1,26 @@
+[
+    {
+        "id": 0,
+        "name": "Deferia.cr",
+        "html_url": "https://deferia.cr/",
+        "description": "University of Costa Rica and FAO project that provides information on the country’s 90 fairs.",
+        "language": "Django / PostgreSQL / Javascript",
+        "img_name": "feria_screenshot.png"
+    },
+    {
+        "id": 1,
+        "name": "Beach Hotel Ecommerce",
+        "html_url": "https://www.issimosuitescr.com/",
+        "description": "Developed and maintained the hotel’s website using Wix and custom JavaScript enhancements",
+        "language": "Wix / Javascript / SEO",
+        "img_name": "hotel_screenshot.png"
+    },
+        {
+        "id": 2,
+        "name": "Running Club",
+        "html_url": "",
+        "description": "Running Club Website",
+        "language": "React / JavaScript / Next.js", 
+        "img_name": "RC_screenshot.png"
+    }
+]

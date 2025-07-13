@@ -1,0 +1,25 @@
+[
+    {
+        "company" : "Deferia.cr",
+        "position" : "Software Developer",
+        "period" : "Aug 2023 - May 2025",
+        "details": [
+        "Developed a fixture script to clean and prepare weekly FAO-provided farmers’ market product price datasets for PostgreSQL and Django integration.",
+        "Implemented dynamic visualizations to display product price trends over time for user-selected items",
+        "Utilized Django’s ORM to structure data models and manage database operations in a clean and scalable way.",
+        "Integrated Wagtail CMS into the web application to enable dynamic content management"
+        ]
+    },
+    {
+        "company" : "Issimo Suites",
+        "position" : "Web Developer and SEO",
+        "period" : "December 2022 -  Jan 2025",
+        "details": [
+        "Developed and maintained the hotel’s website using Wix and custom JavaScript enhancements.",
+        "Managed website content, structure, and user interface to improve user experience and booking accessibility.",
+        "Administered SEO strategy, optimizing site metadata and structure to increase visibility and search engine ranking.",
+        "Monitored site analytics to guide improvements in performance and user engagement."
+        ]
+    }
+    
+]
