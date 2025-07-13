@@ -215,11 +215,13 @@ export const PhoneAccordion = () => {
                 </div>
             </Accordion>
 
-            <Accordion title="Publications"
+            <Accordion title="Skills"
             i={4} expanded={expanded3} setExpanded={setExpanded3}>
                 <div className="pb-5">
                     <div className="pt-1 text-sm leading-snug font-normal">
-                        Build end-to-end web applications with clean, maintainable code — from responsive UI/UX to robust back-end APIs.
+                        Build end-to-end web applications with clean, maintainable code — from responsive UI/UX to robust back-end APIs. 
+                        Rapidly prototype and launch MVPs to validate ideas, gather user feedback, and accelerate time-to-market. 
+                        Integrate AI-driven features and machine learning models to enhance application intelligence and user engagement.
                     </div>
                 </div>
             </Accordion>

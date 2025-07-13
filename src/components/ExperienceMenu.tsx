@@ -82,7 +82,7 @@ export default function ExperienceMenu(props : any) {
             <div className='row'>
                 <div className='col sm:col-4'>
                     <div>
-                        <ul className='p-0 truncate text-ellipsis'>
+                        <ul className='p-0'>
                             {props.data.map((job : any, index: number) => (
                                             
                                             <VListTab
