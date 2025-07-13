@@ -145,7 +145,7 @@ export default function MobileLayout({}: Props) {
                     <GithubFill size = {26}></GithubFill>
                   </a>
 
-                  <a href={resume} download="Phuykong_Meng_Resume.pdf">
+                  <a href={resume} download="Alessandro_Pani_Resume.pdf">
                     <File size = {26} strokeWidth = {2} ></File>
                   </a>
 
