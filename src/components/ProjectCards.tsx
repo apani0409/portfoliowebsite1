@@ -189,7 +189,7 @@ interface ProjectInterface extends Object {
     html_url: string;
 }
 
-export default function ProjectCards({data} : {data : [ProjectInterface]}) {
+export default function ProjectCards({data} : {data : ProjectInterface[]}) {
 
     const [projects, setProjects] = useState<ProjectInterface[]>(data)
     const [modal, setModal] = useState({active: false, ind: 0})
