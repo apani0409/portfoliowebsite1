@@ -19,7 +19,7 @@ import { useTheme } from '../context/ThemeContext'
 // data
 import projectsData from '../data/projects.json'
 import experiencesData from '../data/experiences.json'
-import resume from '../download/Alessandro_Pani_Resume.pdf'
+const resume = '/download/Alessandro_Pani_Resume.pdf'
 
 function ProfileTitleHeader({ theme }: { theme: any }) {
   const container = useRef(null)
@@ -67,7 +67,7 @@ function ProfileDescription({ theme }: { theme: any }) {
   return (
     <div ref={container} style={{ color: theme.sub_color }} className='text-sm lg:text-base 2xl:text-lg'>
       <span className='invisible'>
-        Computer Science student at the University of Costa Rica with a strong interest in Machine Learning and Software Development.
+        Full-Stack Software Engineer with experience building scalable web, mobile, and data-driven applications.
       </span>
     </div>
   )
@@ -192,7 +192,7 @@ export default function DesktopLayout() {
         <div className='flex flex-1 flex-col gap-10'>
           <div className='h-56 w-56'>
             <StaticImage
-              src='../images/self_photo.png'
+              src='../images/self_photo.jpg'
               alt='Alessandro Pani photo'
               placeholder='blurred'
               layout='constrained'

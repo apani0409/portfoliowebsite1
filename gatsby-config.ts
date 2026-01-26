@@ -7,8 +7,8 @@ require("dotenv").config({
 const config: GatsbyConfig = {
   siteMetadata: {
     title: `Alessandro Pani`,
-    description: 'Alessandro Pani is a student at Temple University that has an interest in full-stack development.',
-    siteUrl: `https://www.mphuykong.dev`
+    description: 'Alessandro Pani is a student at Universidad de Costa Rica that has an interest in full-stack development.',
+    siteUrl: `https://alessandro-portfolio-six.vercel.app/`
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
   // If you use VSCode you can also use the GraphQL plugin
@@ -20,10 +20,7 @@ const config: GatsbyConfig = {
     resolve: 'gatsby-source-filesystem',
     options: {
       "name": "images",
-      "path": "./src/images/",
-      defaults: {
-        quality: 100,
-      }
+      "path": "./src/images/"
     },
     __key: "images"
   }]

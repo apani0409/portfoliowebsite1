@@ -1,25 +1,35 @@
 [
-    {
-        "company" : "Deferia",
-        "position" : "Software Developer",
-        "period" : "Aug 2023 - May 2025",
-        "details": [
-        "Developed a fixture script to clean and prepare weekly FAO-provided farmers’ market product price datasets for PostgreSQL and Django integration.",
-        "Implemented dynamic visualizations to display product price trends over time for user-selected items",
-        "Utilized Django’s ORM to structure data models and manage database operations in a clean and scalable way.",
-        "Integrated Wagtail CMS into the web application to enable dynamic content management"
-        ]
-    },
-    {
-        "company" : "Issimo Suites",
-        "position" : "Web Developer and SEO",
-        "period" : "December 2022 -  Jan 2025",
-        "details": [
-        "Developed and maintained the hotel’s website using Wix and custom JavaScript enhancements.",
-        "Managed website content, structure, and user interface to improve user experience and booking accessibility.",
-        "Administered SEO strategy, optimizing site metadata and structure to increase visibility and search engine ranking.",
-        "Monitored site analytics to guide improvements in performance and user engagement."
-        ]
-    }
-    
+  {
+    "company": "ECCI Control UCR",
+    "position": "Software Engineering Project",
+    "period": "2024",
+    "details": [
+      "Developed a QR-based electronic access control system as part of an academic assistance program.",
+      "Identified system requirements through interviews with students and faculty to replace manual device registration.",
+      "Designed backend services and a web interface for secure and traceable access management.",
+      "Implemented authentication and role-based access to ensure system security."
+    ]
+  },
+  {
+    "company": "Deferia.cr (UCRxFAO)",
+    "position": "Software Engineer",
+    "period": "Aug 2023 – May 2025",
+    "details": [
+      "Built a data-driven platform using agricultural price data from the CNP (Consejo Nacional de Producción).",
+      "Cleaned, normalized, and structured large datasets for PostgreSQL and Django integration.",
+      "Implemented dynamic visualizations for historical price analysis across multiple fairs.",
+      "Collaborated in an academic project between Universidad de Costa Rica and the FAO."
+    ]
+  },
+  {
+    "company": "Issimo Suites Hotel",
+    "position": "Web Developer",
+    "period": "Dec 2022 – Jan 2025",
+    "details": [
+      "Developed and maintained the hotel website using Wix and custom JavaScript.",
+      "Improved SEO strategy, site structure, and metadata to increase online visibility.",
+      "Optimized user experience and booking accessibility through UI improvements.",
+      "Monitored site analytics to guide performance and engagement enhancements."
+    ]
+  }
 ]

@@ -11,7 +11,7 @@ import ThemeDropdown from '../ThemeDropdown'
 import { useTheme } from '../../context/ThemeContext'
 
 // Resources
-import resume from "../../download/Alessandro_Pani_Resume.pdf"
+const resume = '/download/Alessandro_Pani_Resume.pdf'
 
 // Styles
 import "../../styles/mobileLayout.scss"
@@ -86,7 +86,7 @@ export default function MobileLayout({}: Props) {
               id='photo_container'>
 
                 <StaticImage
-                      src='../../images/self_photo.png'
+                      src='../../images/self_photo.jpg'
                       alt='Alessandro Pani photo'
                       placeholder="blurred"
                       layout='constrained'

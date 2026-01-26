@@ -40,5 +40,3 @@ export const Head: HeadFC = () => (
     <title>Alessandro Pani</title>
   </>
 )
-
-
