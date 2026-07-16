@@ -182,7 +182,7 @@ export const PhoneAccordion = () => {
             <Accordion title="About Me"
             i={1} expanded={expanded} setExpanded={setExpanded}>
                 <div className="pb-5 text-sm font-normal leading-snug">
-                    Full-Stack Software Engineer with experience building scalable web, mobile, and data-driven applications.
+                    Computer Science student (Universidad de Costa Rica) focused on machine-learning research and full-stack engineering — I run large empirical ML studies and ship production web apps end to end.
                 </div>
             </Accordion>
 
@@ -215,13 +215,17 @@ export const PhoneAccordion = () => {
                 </div>
             </Accordion>
 
-            <Accordion title="Skills"
+            <Accordion title="Research"
             i={4} expanded={expanded3} setExpanded={setExpanded3}>
-                <div className="pb-5">
+                <div className="pb-5 flex flex-col gap-3">
                     <div className="pt-1 text-sm leading-snug font-normal">
-                        Build end-to-end web applications with clean, maintainable code — from responsive UI/UX to robust back-end APIs. 
-                        Rapidly prototype and launch MVPs to validate ideas, gather user feedback, and accelerate time-to-market. 
-                        Integrate AI-driven features and machine learning models to enhance application intelligence and user engagement.
+                        <span style={{ color: theme.main_color }} className="font-semibold">Feature-wise Double Descent</span> — draft paper. 13,000+ training runs showing the interpolation peak is a spectral phenomenon, predictable without training any model.
+                    </div>
+                    <div className="text-sm leading-snug font-normal">
+                        <span style={{ color: theme.main_color }} className="font-semibold">conjetura-lab</span> — automated graph-theory conjecturing engine that enumerates graphs, computes invariants and refutes conjectures overnight with an LLM in the loop.
+                    </div>
+                    <div className="text-sm leading-snug font-normal">
+                        <span style={{ color: theme.main_color }} className="font-semibold">Museo del Espacio Matemático</span> — 30+ interactive math &amp; physics visualizations controllable by webcam hand-tracking.
                     </div>
                 </div>
             </Accordion>

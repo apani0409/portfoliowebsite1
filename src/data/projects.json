@@ -1,26 +1,50 @@
 [
   {
     "id": 0,
-    "name": "Mejengas App",
-    "html_url": "https://mejengas-live-3d02.globeapp.dev/",
-    "description": "Real-time Flutter application for live session management, enabling players to join via unique session codes with real-time synchronization and automatic team balancing logic.",
-    "language": "Flutter / Supabase / Real-time Sessions",
-    "img_name": "mejengas_screenshot.png"
+    "name": "Feature-wise Double Descent (research)",
+    "html_url": "https://github.com/apani0409",
+    "description": "Independent ML study (draft paper): 13,000+ training runs showing the interpolation peak is a spectral phenomenon, predictable without training a single model.",
+    "language": "Python / scikit-learn / NumPy",
+    "img_name": "double_descent.png"
   },
   {
     "id": 1,
+    "name": "Mejengas App",
+    "html_url": "https://mejengas-live-3d02.globeapp.dev/",
+    "description": "Real-time Flutter application for live session management, letting players join via unique codes with real-time synchronization and automatic team balancing.",
+    "language": "Flutter / Supabase / Real-time",
+    "img_name": "mejengas_screenshot.png"
+  },
+  {
+    "id": 2,
     "name": "Geopolitical Risk Analytics",
     "html_url": "https://geopolitical-risk-analytics-9e3zxpwgqolzycgffmjerj.streamlit.app/",
-    "description": "Interactive analytics dashboard that explores geopolitical risk indicators and their relationship with economic instability across countries.",
+    "description": "Interactive dashboard that explores geopolitical risk indicators and their relationship with economic instability across countries.",
     "language": "Python / Streamlit / Data Analysis",
     "img_name": "geopolitical_risk.png"
   },
   {
-    "id": 2,
-    "name": "Market Price Analytics",
+    "id": 3,
+    "name": "Market Price Analytics (deferia.cr)",
     "html_url": "https://market-price-udncrivstvb6pkdd5z3iat.streamlit.app/",
-    "description": "Data visualization tool for agricultural market prices, enabling analysis of historical trends, seasonal patterns, and regional differences.",
+    "description": "Data platform on CNP agricultural price data (UCR x FAO): historical trends, seasonal patterns and regional differences across fairs.",
     "language": "Python / Streamlit / PostgreSQL",
     "img_name": "market_price.png"
+  },
+  {
+    "id": 4,
+    "name": "ECCI QR Access Control",
+    "html_url": "https://github.com/apani0409/ecci-qr-access",
+    "description": "QR-based electronic access-control system that replaced manual sign-in with a secure, traceable digital process for an academic assistance program.",
+    "language": "Full-Stack / Auth / Web",
+    "img_name": "ECCI_ss.png"
+  },
+  {
+    "id": 5,
+    "name": "Issimo Suites Hotel",
+    "html_url": "https://www.issimosuitescr.com/",
+    "description": "Production, consumer-facing hotel website with improved SEO, structure and booking UX, plus ongoing analytics-driven optimization.",
+    "language": "Web / SEO / JavaScript",
+    "img_name": "hotel_screenshot.png"
   }
 ]
