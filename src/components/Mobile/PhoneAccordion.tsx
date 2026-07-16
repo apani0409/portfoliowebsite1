@@ -222,10 +222,7 @@ export const PhoneAccordion = () => {
                         <span style={{ color: theme.main_color }} className="font-semibold">Feature-wise Double Descent</span> — draft paper. 13,000+ training runs showing the interpolation peak is a spectral phenomenon, predictable without training any model.
                     </div>
                     <div className="text-sm leading-snug font-normal">
-                        <span style={{ color: theme.main_color }} className="font-semibold">conjetura-lab</span> — automated graph-theory conjecturing engine that enumerates graphs, computes invariants and refutes conjectures overnight with an LLM in the loop.
-                    </div>
-                    <div className="text-sm leading-snug font-normal">
-                        <span style={{ color: theme.main_color }} className="font-semibold">Museo del Espacio Matemático</span> — 30+ interactive math &amp; physics visualizations controllable by webcam hand-tracking.
+                        <span style={{ color: theme.main_color }} className="font-semibold">Conjecture Engine</span> — automated graph-theory conjecturing system that enumerates graphs, computes invariants and refutes conjectures overnight with an LLM in the loop.
                     </div>
                 </div>
             </Accordion>

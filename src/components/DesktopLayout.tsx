@@ -224,10 +224,7 @@ export default function DesktopLayout() {
                 <span style={{ color: theme.main_color }} className='font-semibold'>Feature-wise Double Descent</span> — draft paper. 13,000+ training runs mapping the interpolation peak across model families; showed it is a spectral phenomenon, predictable without training any model.
               </div>
               <div>
-                <span style={{ color: theme.main_color }} className='font-semibold'>conjetura-lab</span> — an automated graph-theory conjecturing engine (Graffiti / TxGraffiti style): enumerates graphs, computes invariants and refutes inequality conjectures overnight with an LLM in the loop.
-              </div>
-              <div>
-                <span style={{ color: theme.main_color }} className='font-semibold'>Museo del Espacio Matemático</span> — 30+ interactive math &amp; physics visualizations controllable by webcam hand-tracking.
+                <span style={{ color: theme.main_color }} className='font-semibold'>Conjecture Engine</span> — an automated graph-theory conjecturing system (Graffiti / TxGraffiti style): enumerates graphs, computes invariants and refutes inequality conjectures overnight with an LLM in the loop.
               </div>
             </div>
           </Accordion>

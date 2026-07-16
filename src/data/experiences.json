@@ -1,10 +1,10 @@
 [
   {
     "company": "Universidad de Costa Rica",
-    "position": "Full-Stack Developer – SIGECAT (Paid Assistantship), Vicerrectoría de Administración",
+    "position": "Full-Stack Developer – SIGECAT, Vicerrectoría de Administración",
     "period": "2026 – Present",
     "details": [
-      "Building a workload & work-shift declaration platform: employees declare shift functions, licenses and rest periods while admins manage the university's organizational hierarchy.",
+      "Building a workload & work-shift declaration platform as part of an academic assistance program: employees declare shift functions, licenses and rest periods while admins manage the university's organizational hierarchy.",
       "React 19 + TypeScript SPA (Vite, Material UI) with client-side PDF export of declarations.",
       "Framework-less REST API in PHP 8.4 on Oracle Database with a clean layered architecture (controllers, services, PDO/OCI repositories with prepared statements).",
       "Token auth with refresh-token rotation, bcrypt, per-IP rate limiting and account lockout; Dockerized monorepo with CI (lint, build, PHPStan)."

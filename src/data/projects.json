@@ -41,10 +41,10 @@
   },
   {
     "id": 5,
-    "name": "Issimo Suites Hotel",
-    "html_url": "https://www.issimosuitescr.com/",
-    "description": "Production, consumer-facing hotel website with improved SEO, structure and booking UX, plus ongoing analytics-driven optimization.",
-    "language": "Web / SEO / JavaScript",
-    "img_name": "hotel_screenshot.png"
+    "name": "Museo del Espacio Matemático",
+    "html_url": "https://museo-espacio-matematico.vercel.app/",
+    "description": "30+ interactive math & physics visualizations (orbits, Fibonacci, fields) controllable by webcam hand-tracking, packaged as an installable PWA.",
+    "language": "JavaScript / WebGL / MediaPipe",
+    "img_name": "museo.png"
   }
 ]
