@@ -1,5 +1,25 @@
 [
   {
+    "company": "Universidad de Costa Rica – Vicerrectoría de Administración",
+    "position": "Full-Stack Developer – SIGECAT (Paid Assistantship)",
+    "period": "2026 – Present",
+    "details": [
+      "Building a workload & work-shift declaration platform: employees declare shift functions, licenses and rest periods while admins manage the university's organizational hierarchy.",
+      "React 19 + TypeScript SPA (Vite, Material UI) with client-side PDF export of declarations.",
+      "Framework-less REST API in PHP 8.4 on Oracle Database with a clean layered architecture (controllers, services, PDO/OCI repositories with prepared statements).",
+      "Token auth with refresh-token rotation, bcrypt, per-IP rate limiting and account lockout; Dockerized monorepo with CI (lint, build, PHPStan)."
+    ]
+  },
+  {
+    "company": "Independent / Freelance",
+    "position": "Freelance Web Developer",
+    "period": "2022 – Present",
+    "details": [
+      "Designed, built and shipped websites for 10+ clients across legal (VM Legal Group), hospitality and e-commerce.",
+      "Mostly React-based; own the full delivery cycle: requirements, development, deployment, SEO and analytics."
+    ]
+  },
+  {
     "company": "ECCI Control UCR",
     "position": "Software Engineering Project",
     "period": "2024",

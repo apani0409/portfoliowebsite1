@@ -1,9 +1,9 @@
 {
-  "name": "pk-portfolio",
+  "name": "alessandro-portfolio",
   "version": "1.0.0",
   "private": true,
-  "description": "pk-portfolio",
-  "author": "Phuykong",
+  "description": "Personal portfolio of Alessandro Pani",
+  "author": "Alessandro Pani",
   "keywords": [
     "gatsby"
   ],

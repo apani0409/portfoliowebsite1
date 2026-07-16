@@ -67,7 +67,7 @@ function ProfileDescription({ theme }: { theme: any }) {
   return (
     <div ref={container} style={{ color: theme.sub_color }} className='text-sm lg:text-base 2xl:text-lg'>
       <span className='invisible'>
-        Full-Stack Software Engineer with experience building scalable web, mobile, and data-driven applications.
+        Computer Science student (Universidad de Costa Rica) focused on machine-learning research and full-stack engineering — I run large empirical ML studies and ship production web apps end to end.
       </span>
     </div>
   )
@@ -218,15 +218,17 @@ export default function DesktopLayout() {
           <Accordion i={1} expanded={expanded} setExpanded={setExpanded} title='PROJECTS' theme={theme} order={1}>
             <ProjectCards data={projectsData} />
           </Accordion>
-          <Accordion i={2} expanded={expanded} setExpanded={setExpanded} title='SKILLS' theme={theme} order={2}>
-            <div className='text-left' style={{ color: theme.text_color }}>
-              <a target='_blank'>
-                Build end-to-end web applications with clean, maintainable code — from responsive UI/UX to robust back-end APIs.
-
-                Rapidly prototype and launch MVPs to validate ideas, gather user feedback, and accelerate time-to-market.
-
-                Integrate AI-driven features and machine learning models to enhance application intelligence and user engagement.
-              </a>
+          <Accordion i={2} expanded={expanded} setExpanded={setExpanded} title='RESEARCH' theme={theme} order={2}>
+            <div className='text-left flex flex-col gap-4' style={{ color: theme.text_color }}>
+              <div>
+                <span style={{ color: theme.main_color }} className='font-semibold'>Feature-wise Double Descent</span> — draft paper. 13,000+ training runs mapping the interpolation peak across model families; showed it is a spectral phenomenon, predictable without training any model.
+              </div>
+              <div>
+                <span style={{ color: theme.main_color }} className='font-semibold'>conjetura-lab</span> — an automated graph-theory conjecturing engine (Graffiti / TxGraffiti style): enumerates graphs, computes invariants and refutes inequality conjectures overnight with an LLM in the loop.
+              </div>
+              <div>
+                <span style={{ color: theme.main_color }} className='font-semibold'>Museo del Espacio Matemático</span> — 30+ interactive math &amp; physics visualizations controllable by webcam hand-tracking.
+              </div>
             </div>
           </Accordion>
         </motion.div>
