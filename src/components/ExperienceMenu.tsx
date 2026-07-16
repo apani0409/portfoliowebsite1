@@ -69,7 +69,7 @@ export default function ExperienceMenu(props: any) {
     <div className='container relative max-w-full min-h-[30rem] mt-5'>
       <div className='row flex flex-wrap'>
         {/* Columna de empresas */}
-        <div className='col sm:col-4 w-full sm:w-1/3'>
+        <div className='col sm:col-4 w-full sm:w-1/3 pr-4'>
           <ul className='p-0'>
             {props.data.map((job: any, index: number) => (
               <VListTab
@@ -84,7 +84,7 @@ export default function ExperienceMenu(props: any) {
         </div>
 
         {/* Columna de contenidos */}
-        <div className='col sm:col-8 w-full sm:w-2/3'>
+        <div className='col sm:col-8 w-full sm:w-2/3 pl-2'>
           {props.data.map((job: any, index: number) => (
             <VListContent
               key={index}
