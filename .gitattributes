@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Keep PDFs byte-for-byte (the resume download)
+*.pdf binary

@@ -36,7 +36,7 @@ export default IndexPage
 export const Head: HeadFC = () => (
   <>
     <html lang="en" />
-    <meta name="description" content="Alessandro Pani — Computer Science student & ML researcher, full-stack developer" />
+    <meta name="description" content="Alessandro Pani — Computer Science student (UCR), full-stack and research software developer" />
     <title>Alessandro Pani</title>
   </>
 )

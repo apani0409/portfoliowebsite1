@@ -1,50 +1,42 @@
 [
   {
     "id": 0,
-    "name": "Feature-wise Double Descent (research)",
-    "html_url": "https://github.com/apani0409",
-    "description": "Independent ML study (draft paper): 13,000+ training runs showing the interpolation peak is a spectral phenomenon, predictable without training a single model.",
-    "language": "Python / scikit-learn / NumPy",
-    "img_name": "double_descent.png"
+    "name": "Museo del Espacio Matemático",
+    "html_url": "https://museo-espacio-matematico.vercel.app/",
+    "description": "30+ interactive math & physics simulations (hydrogen orbitals, dipole radiation, Fourier epicycles) in WebGL and Web Audio, several controlled by on-device webcam hand tracking.",
+    "language": "JavaScript / Three.js / MediaPipe",
+    "img_name": "museo.png"
   },
   {
     "id": 1,
-    "name": "Mejengas App",
-    "html_url": "https://mejengas-live-3d02.globeapp.dev/",
-    "description": "Real-time Flutter application for live session management, letting players join via unique codes with real-time synchronization and automatic team balancing.",
-    "language": "Flutter / Supabase / Real-time",
-    "img_name": "mejengas_screenshot.png"
+    "name": "Market Price Analytics (deferia.cr)",
+    "html_url": "https://cnp-precios-viz.vercel.app/",
+    "description": "Interactive dashboard over 9,184 weekly CNP agricultural price records (56 products, 2021–2024) from the UCR × FAO deferia.cr project: trends, seasonality and product comparisons.",
+    "language": "React / TypeScript / Plotly",
+    "img_name": "market_price.png"
   },
   {
     "id": 2,
+    "name": "ECCI QR Access Control",
+    "html_url": "https://github.com/apani0409/ecci-qr-access",
+    "description": "Working demo of a QR-based computer sign-in workflow designed, from interviews with faculty, security staff and students, to replace manual device registration.",
+    "language": "Full-Stack / Auth / Web",
+    "img_name": "ECCI_ss.png"
+  },
+  {
+    "id": 3,
     "name": "Geopolitical Risk Analytics",
-    "html_url": "https://geopolitical-risk-analytics-9e3zxpwgqolzycgffmjerj.streamlit.app/",
+    "html_url": "https://github.com/apani0409/geopolitical-risk-analytics",
     "description": "Interactive dashboard that explores geopolitical risk indicators and their relationship with economic instability across countries.",
     "language": "Python / Streamlit / Data Analysis",
     "img_name": "geopolitical_risk.png"
   },
   {
-    "id": 3,
-    "name": "Market Price Analytics (deferia.cr)",
-    "html_url": "https://market-price-udncrivstvb6pkdd5z3iat.streamlit.app/",
-    "description": "Data platform on CNP agricultural price data (UCR x FAO): historical trends, seasonal patterns and regional differences across fairs.",
-    "language": "Python / Streamlit / PostgreSQL",
-    "img_name": "market_price.png"
-  },
-  {
     "id": 4,
-    "name": "ECCI QR Access Control",
-    "html_url": "https://github.com/apani0409/ecci-qr-access",
-    "description": "QR-based electronic access-control system that replaced manual sign-in with a secure, traceable digital process for an academic assistance program.",
-    "language": "Full-Stack / Auth / Web",
-    "img_name": "ECCI_ss.png"
-  },
-  {
-    "id": 5,
-    "name": "Museo del Espacio Matemático",
-    "html_url": "https://museo-espacio-matematico.vercel.app/",
-    "description": "30+ interactive math & physics visualizations (orbits, Fibonacci, fields) controllable by webcam hand-tracking, packaged as an installable PWA.",
-    "language": "JavaScript / WebGL / MediaPipe",
-    "img_name": "museo.png"
+    "name": "Mejengas App",
+    "html_url": "https://github.com/apani0409/mejengas-live",
+    "description": "Real-time Flutter application for live session management, letting players join via unique codes with real-time synchronization and automatic team balancing.",
+    "language": "Flutter / Supabase / Real-time",
+    "img_name": "mejengas_screenshot.png"
   }
 ]

@@ -1,13 +1,24 @@
 [
   {
-    "company": "Universidad de Costa Rica",
-    "position": "Full-Stack Developer – SIGECAT, Vicerrectoría de Administración",
-    "period": "2026 – Present",
+    "company": "Ensamblaje Piñero (UCR)",
+    "position": "Research & Development Assistant",
+    "period": "Jun 2026 – Present",
     "details": [
-      "Building a workload & work-shift declaration platform as part of an academic assistance program: employees declare shift functions, licenses and rest periods while admins manage the university's organizational hierarchy.",
+      "Sole developer on a language and discourse research project (C6354, School of Philology), implementing the analysis design defined by a linguistics PhD.",
+      "Built Python pipelines that collected, extracted and segmented 7,063 Legislative Assembly session transcripts (~17 GB) into a traceable corpus.",
+      "Building a benchmark of Spanish part-of-speech taggers, from pretrained pipelines (Stanza, spaCy) to a fine-tuned transformer language model (BETO), with a strict EAGLES evaluator and 67 automated tests; SLURM jobs prepared for UCR's A100 GPU cluster.",
+      "Building the project's bilingual website (Astro, TypeScript) and user guides so the research team can edit its content without programming."
+    ]
+  },
+  {
+    "company": "SIGECAT (UCR)",
+    "position": "Full-Stack Developer – Vicerrectoría de Administración",
+    "period": "Jan 2026 – Jun 2026",
+    "details": [
+      "Built a workload & work-shift declaration platform, as part of an academic assistance program, that replaced a paper-based process for 50+ staff: employees declare shift functions, licenses and rest periods while admins manage the university's organizational hierarchy.",
       "React 19 + TypeScript SPA (Vite, Material UI) with client-side PDF export of declarations.",
-      "Framework-less REST API in PHP 8.4 on Oracle Database with a clean layered architecture (controllers, services, PDO/OCI repositories with prepared statements).",
-      "Token auth with refresh-token rotation, bcrypt, per-IP rate limiting and account lockout; Dockerized monorepo with CI (lint, build, PHPStan)."
+      "Framework-less REST API in PHP 8.4 on Oracle Database with a clean layered architecture (controllers, services, PDO/OCI repositories with prepared statements); optimized slow queries from ~4 s to under 1 s.",
+      "Token auth with refresh-token rotation, bcrypt, per-IP rate limiting and account lockout; Dockerized monorepo with CI (lint, build, PHPStan) and endpoint and concurrency tests."
     ]
   },
   {
@@ -16,29 +27,29 @@
     "period": "2022 – Present",
     "details": [
       "Designed, built and shipped websites for 10+ clients across legal (VM Legal Group), hospitality and e-commerce.",
-      "Mostly React-based; own the full delivery cycle: requirements, development, deployment, SEO and analytics."
+      "Mostly React-based; own the full delivery cycle: requirements, development, deployment, SEO and analytics.",
+      "Ongoing support: troubleshoot site outages, broken forms and email delivery issues, configure email, DNS, SSL and hosting migrations, and train clients to update their own content."
+    ]
+  },
+  {
+    "company": "Deferia.cr (UCR × FAO)",
+    "position": "Software Engineer",
+    "period": "Aug 2023 – May 2025",
+    "details": [
+      "Turned four years of CNP (Consejo Nacional de Producción) price bulletins into a clean dataset of 9,184 records across 56 agricultural products.",
+      "Cleaned, normalized, and structured the data for PostgreSQL and Django integration.",
+      "Implemented dynamic visualizations for historical price analysis across multiple fairs.",
+      "Joint academic project between Universidad de Costa Rica and the UN Food and Agriculture Organization (FAO)."
     ]
   },
   {
     "company": "ECCI Control UCR",
     "position": "Software Engineering Project",
-    "period": "2024",
+    "period": "2024 – 2025",
     "details": [
-      "Developed a QR-based electronic access control system as part of an academic assistance program.",
-      "Identified system requirements through interviews with students and faculty to replace manual device registration.",
-      "Designed backend services and a web interface for secure and traceable access management.",
-      "Implemented authentication and role-based access to ensure system security."
-    ]
-  },
-  {
-    "company": "Deferia.cr (UCRxFAO)",
-    "position": "Software Engineer",
-    "period": "Aug 2023 – May 2025",
-    "details": [
-      "Built a data-driven platform using agricultural price data from the CNP (Consejo Nacional de Producción).",
-      "Cleaned, normalized, and structured large datasets for PostgreSQL and Django integration.",
-      "Implemented dynamic visualizations for historical price analysis across multiple fairs.",
-      "Collaborated in an academic project between Universidad de Costa Rica and the FAO."
+      "Designed a QR-based computer sign-in workflow to replace manual device registration, as part of an academic assistance program.",
+      "Identified requirements through interviews with faculty, security staff and students.",
+      "Built a working demo with backend services, a web interface, authentication and role-based access, and presented it for validation."
     ]
   },
   {

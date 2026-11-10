@@ -182,7 +182,7 @@ export const PhoneAccordion = () => {
             <Accordion title="About Me"
             i={1} expanded={expanded} setExpanded={setExpanded}>
                 <div className="pb-5 text-sm font-normal leading-snug">
-                    Computer Science student (Universidad de Costa Rica) focused on machine-learning research and full-stack engineering — I run large empirical ML studies and ship production web apps end to end.
+                    Computer Science student (Universidad de Costa Rica) who builds and ships production software: a web platform that replaced a paper process for 50+ university staff, language-model research pipelines for a UCR linguistics project, and websites for 10+ freelance clients. Open to internships and junior roles in 2027.
                 </div>
             </Accordion>
 
