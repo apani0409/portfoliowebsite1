@@ -1,42 +1,24 @@
-import * as React from "react"
-import type { HeadFC, PageProps } from "gatsby"
-import { MotionConfig } from "framer-motion"
-import { useMediaQuery } from "react-responsive"
+import * as React from 'react'
+import type { HeadFC } from 'gatsby'
+import ArcadePage from '../components/Arcade/ArcadePage'
 
-import DesktopLayout from "../components/DesktopLayout"
-import MobileLayout from "../components/Mobile/MobileLayout";
-
-import { ThemeProvider, useTheme } from "../context/ThemeContext";
-
-const IndexPage: React.FC<PageProps> = () => {
-
-  const isDesktopOrLaptop = useMediaQuery({
-    query: '(min-width: 1224px)'
-  })
-
-  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
-  const { theme, updateTheme } = useTheme();
-
-  return (
-
-      <ThemeProvider>
-
-        <MotionConfig reducedMotion="user">
-            {isDesktopOrLaptop && <DesktopLayout/>}
-            {isTabletOrMobile && <MobileLayout/>}
-
-        </MotionConfig>
-
-      </ThemeProvider>
-  )
-}
+const IndexPage = () => <ArcadePage />
 
 export default IndexPage
 
 export const Head: HeadFC = () => (
   <>
     <html lang="en" />
-    <meta name="description" content="Alessandro Pani — Computer Science student (UCR), full-stack and research software developer" />
     <title>Alessandro Pani</title>
+    <meta
+      name="description"
+      content="Alessandro Pani — Computer Science student (UCR) who builds and ships production software. Every project is a playable mini-game."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=Silkscreen:wght@400;700&display=swap"
+    />
   </>
 )
