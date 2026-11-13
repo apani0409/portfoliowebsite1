@@ -14,7 +14,7 @@ const EMAIL = 'mailto:alessandro.pani1010@gmail.com'
 const SKILLS: [string, string[]][] = [
   ['Languages', ['Python', 'TypeScript / JavaScript', 'PHP', 'SQL (Oracle, PostgreSQL, SQLite)']],
   ['Web', ['React', 'Astro', 'Django', 'REST APIs']],
-  ['Data & ML', ['pandas', 'scikit-learn', 'PyTorch', 'Hugging Face Transformers', 'spaCy', 'Stanza']],
+  ['Data & ML', ['pandas', 'scikit-learn', 'Power BI', 'PyTorch', 'Hugging Face Transformers', 'spaCy', 'Stanza']],
   ['Tools', ['Git', 'Docker', 'Linux / Bash', 'SLURM (HPC)', 'pytest', 'CI pipelines', 'Jira', 'Oracle Cloud']],
   ['Spoken', ['Spanish (native)', 'Italian (native)', 'English (C1, professional)']],
 ]
