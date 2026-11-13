@@ -3,6 +3,7 @@ import createTagger from './games/tagger'
 import createPaperless from './games/paperless'
 import createUptime from './games/uptime'
 import createPriceRider from './games/pricerider'
+import createTryOn from './games/tryon'
 import createSwarm from './games/swarm'
 import createCheckin from './games/checkin'
 import createBalance from './games/balance'
@@ -118,8 +119,31 @@ export const CARTS: Cart[] = [
     make: createPriceRider,
   },
   {
-    id: 'swarm',
+    id: 'tryon',
     slot: '05',
+    game: 'TRY-ON',
+    project: 'Mods',
+    context: 'Software Quality course project (CI-0140) · Universidad de Costa Rica',
+    period: '2026',
+    tagline: 'Custom-cap store with an on-device AR fitting room',
+    summary:
+      'An online store for made-to-order trucker caps: customers design their cap, try it on in 3D with the phone camera and go through checkout. Built for the Software Quality course as the prototype of a custom-apparel business in Costa Rica.',
+    bullets: [
+      "Face tracking (MediaPipe) and 3D rendering (Three.js) run in the browser: camera frames never leave the device, as Costa Rica's data-protection law (Ley 8968) requires.",
+      'Tested with 146 unit tests (Vitest) and Playwright end-to-end tests that check privacy, offline use and checkout flows.',
+      'Quality plan: a GQM model of 5 goals, 12 questions and 15 code and process metrics (fps, p95 inference latency, reprojection error, complexity, branch coverage), plus 16 verification and validation activities.',
+      'A built-in debug panel measures fps, p95 inference latency and reprojection error on a real phone.',
+    ],
+    stack: ['TypeScript', 'Three.js', 'MediaPipe', 'Vite', 'Vitest', 'Playwright', 'ESLint'],
+    links: [{ label: 'Try the live demo', href: 'https://mods-cr.vercel.app/' }],
+    howto:
+      "Keep the cap on the customer's head. The number on screen is the reprojection error, a metric the real fitting room measures: under 6 px is green, and the shutter only takes a good photo when the cap fits.",
+    controls: 'move the pointer or use arrow keys',
+    make: createTryOn,
+  },
+  {
+    id: 'swarm',
+    slot: '06',
     game: 'ORBITALS',
     project: 'Museo del Espacio Matemático',
     context: 'Personal project',
@@ -140,7 +164,7 @@ export const CARTS: Cart[] = [
   },
   {
     id: 'checkin',
-    slot: '06',
+    slot: '07',
     game: 'CHECK-IN',
     project: 'ECCI QR Access Control',
     context: 'Software engineering project · School of Computer Science, UCR',
@@ -161,7 +185,7 @@ export const CARTS: Cart[] = [
   },
   {
     id: 'balance',
-    slot: '07',
+    slot: '08',
     game: 'BALANCE',
     project: 'Mejengas App',
     context: 'Personal project',
@@ -181,7 +205,7 @@ export const CARTS: Cart[] = [
   },
   {
     id: 'descent',
-    slot: '08',
+    slot: '09',
     game: 'DESCENT',
     project: 'Research: Feature-wise Double Descent',
     context: 'Independent research',
